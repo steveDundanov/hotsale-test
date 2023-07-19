@@ -1,0 +1,9 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    height: 100vh;
+}
+
+#app {
+    height: 100%;
+}
