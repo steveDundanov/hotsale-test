@@ -103,8 +103,7 @@ export default {
                 email: this.form.email,
                 password: this.form.password,
                 password_confirmation: this.form.passwordConfirmation
-            })
-                .then(response => {
+            }).then(response => {
                     this.errors = response.errors
 
                     this.successRegistration = response.status || false
